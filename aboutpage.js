@@ -123,7 +123,7 @@ function AboutPage() {
                       </span>
                       <ul>
                         <li>
-                          Hi conceived in the 1940s and initially called the
+                          First conceived in the 1940s and initially called the
                           Large Space Telescope, the Hubble Space Telescope took
                           decades of planning and research before it launched on
                           April 24, 1990.
