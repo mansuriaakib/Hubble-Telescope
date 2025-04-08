@@ -1,0 +1,193 @@
+body {
+    font-family: 'Poppins', sans-serif!important;
+    background-color: #121212;
+}
+
+.header {
+    padding: 30px 5vw;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.bg-light {
+    background: rgba(240, 240, 240, 0.1) !important;
+    box-shadow: 1.5px 3.5px 3.5px rgba(0, 0, 0, 0.25);
+    -webkit-backdrop-filter: blur(45px);
+    backdrop-filter: blur(45px);
+    -webkit-backdrop-filter: blur(45px);
+    border-radius: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    padding: 0px 0px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+a.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.header a {
+    padding: 3px 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.header a:hover,
+.header a.active {
+    color: #afff04;
+}
+
+/* Mobile Media Css */
+@media only screen and (max-width: 767px) {
+    .navbar-brand img {
+        width: 70px;
+    }
+    button.navbar-toggler {
+        padding: 0;
+        border: none;
+    }
+    button.navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-light .navbar-toggler iconify-icon {
+        font-size: 43px;
+        color: #fff;
+    }
+    .offcanvas {
+        background-color: #282828;
+    }
+    .offcanvas-header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1rem 1rem;
+    }
+    .offcanvas-body ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        list-style: none;
+        margin-top: 0;
+        padding-left: 20px !important;
+    }
+    .offcanvas-body ul li a {
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .offcanvas-body ul li a:hover,
+    .offcanvas-body ul li a.active {
+        color: #afff04;
+    }
+    .offcanvas-header .btn-close {
+        background: none;
+        opacity: 1;
+        width: auto;
+        height: auto;
+    }
+    .offcanvas-header .btn-close:focus {
+        box-shadow: none;        
+    }
+    .offcanvas-header .btn-close iconify-icon {
+        font-size: 43px;
+        color: #fff;
+    }
+    .offcanvas-end {
+        width: 320px;
+    }
+}
+
+
+/* Tablet Media Css */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    button.navbar-toggler {
+        padding: 0;
+        border: none;
+    }
+    button.navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-light .navbar-toggler iconify-icon {
+        font-size: 43px;
+        color: #fff;
+    }
+    .offcanvas {
+        background-color: #282828;
+    }
+    .offcanvas-header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 1rem 1rem;
+    }
+    .offcanvas-body ul {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        list-style: none;
+        margin-top: 0;
+        padding-left: 20px !important;
+    }
+    .offcanvas-body ul li a {
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .offcanvas-header .btn-close {
+        background: none;
+        opacity: 1;
+        width: auto;
+        height: auto;
+    }
+    .offcanvas-header .btn-close:focus {
+        box-shadow: none;        
+    }
+    .offcanvas-header .btn-close iconify-icon {
+        font-size: 43px;
+        color: #fff;
+    }
+    .offcanvas-end {
+        width: 320px;
+    }
+}
+
+
+/* Big Desktop Media Css */
+@media only screen and (min-width: 993px) and (max-width: 1169px) {
+    
+}
