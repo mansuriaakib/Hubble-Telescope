@@ -1,0 +1,95 @@
+.gallery {
+    background-color: #000;
+    padding: 50px 5vw;
+    padding-top: 165px;
+}
+
+.gallery h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.gallery-img {
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.gallery .morebtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.gallery .morebtn button {
+    color: #000;
+    background-color: #afff04;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 35px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.gallery .morebtn button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+/* Mobile media css */
+@media screen and (max-width: 767px) {
+    .gallery {
+        padding: 10px 5vw;
+        padding-top: 150px;
+    }
+    .gallery .morebtn button {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+}
+
+
+/* Tablet Media CSS */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  
+}
+
+/* Big Desktop Media Css */
+@media only screen and (min-width: 993px) and (max-width: 1400px) {
+  
+}
+
+/* 4k */
+@media only screen and (min-width: 1410px) and (max-width: 2600px) {
+}
